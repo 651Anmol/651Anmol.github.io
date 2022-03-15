@@ -1,0 +1,295 @@
+/* html, body, div, span, applet, object, iframe, */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    font-family:sans-serif ;
+    margin: 0;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@keyframes fade {
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}
+.navs{
+    background-color: white;
+    opacity: 80%;
+    color: black;
+}
+.ntop, ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+#search, form button{
+    padding: 10px 20px;
+    background-color: white;
+}
+.ntop{
+    padding: 40px 20px;
+}
+nav:hover{
+    background-color: gray;
+    opacity: 80%;
+    
+}
+nav{
+    position:fixed;
+    width: 100%;
+    z-index: 100;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+
+}
+.link{
+    text-decoration:none;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+a:hover{
+    background-color: white;
+    text-shadow: 1px 10px 10px#fbeec1 ;
+    color:black ;
+}
+.dr_dre{
+    margin-right: 50px;
+    font-family: cfont;
+    font-size: 30px;
+}
+.bg{
+    background-image: url(https://ak.picdn.net/shutterstock/videos/22118923/thumb/1.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.linkscr{
+    color: Black;
+    text-decoration:none;
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+
+.shadow{
+    height:200px;
+    box-shadow: inset -10px -40px 40px black;
+}
+footer{
+    padding: 50px 0;
+    font-size: 12px;
+    text-align: center;
+}
+.extra{
+    height: 140px;
+}
+.container1{
+    background-color: rgb(241, 238, 240);
+    font-weight: 900;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 60px;
+    color: black;
+    opacity: 60%;
+    width:500px;
+    height: 450px;
+    margin-left: 80px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.container1:hover{
+    background-color: #a8724d;
+    color:white;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.register{
+    width: 600px;
+    margin-left: 40px;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 180px;
+    color:white;
+    text-shadow: 10px 10px 20px black;
+    flex-shrink: 2;
+    font-family: cfont;
+}
+.button{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    text-shadow: none;
+    font-size: 0.8em;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+.button:hover{
+    background-color: Black;
+    opacity: 70%;
+    color:white;
+    text-shadow:1px 2px 30px white;
+}
+.sndbox{
+    background-attachment: fixed;
+    background: linear-gradient( #9198e5, rgb(233, 220, 220));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.se{
+    width: 20em;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 1.5em;
+    line-height: 2;
+    
+}
+
+.img1{
+    width:40em;
+    margin: 90px auto ;
+}
+
+/* main sheet or the intro */
+#myVideo{
+    position:fixed;
+    object-fit: fill;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1000;
+}
+.text{
+    text-align: center;
+    font-family: cfont;
+    font-size: 2.5em;
+    color: white;
+    width: 600px;
+    margin-top: 90px;
+}
+.qwe{
+    text-align: center;
+}
+.flexing{
+    display: flex;
+    justify-content: space-between;
+}
+.page1b{
+    padding: 20px 40px;
+    background-color: white;
+    border-radius:20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: Black;
+    font-family: cfont;
+}
+.margin{
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:971px){
+    .nav, ul{
+        font-size: 10px;
+        padding:10px;
+    }
+    .dr_dre{margin: 0;}
+    .link, .linkscr{
+        padding: 10px;
+    }
+}
+@media(max-width:815px){
+    .ntop, ul{
+        font-size: 12px;
+        padding:15px 2px;
+        margin-right: 10px;
+    }
+    .ntop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .link,.linkscr{
+        padding:5px;
+    }
+    .dr_dre{
+        margin: 0;
+    }
+    .container1{
+        margin:0 auto ;
+        width:80%;
+    }
+}
+@media(max-width:1220px){
+    .register{
+      margin-left: 30%;
+    }
+}
+@font-face { font-family :cfont; src: url('TacendaDemo.otf'); } 
